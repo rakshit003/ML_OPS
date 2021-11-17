@@ -12,4 +12,7 @@ step6 : use python version 3.6
 step7 : Add task2 to install python librarie
 step8 : Add task 3 Pytest tests/unit/data_test.py --doctest - modules
 --junitxml=junit/test-results.xml --cov=data_test --conv
-step9 : 
+step9 : Add Cluster information
+az extension add -n azure-cli-ml
+az ml workspace create -g $(azureml.resourceGroup) -w $(azureml.WorksapceName) -l $(azureml.location) --exit-ok 
+az ml computetarget create amlcompute $(azureml.resourceGroup) -w $(azureml.WorksapceName) -n $(azureml.clusterName) -s $(amlcompute.vmsize) --min-nodes $(aml.computeminNodes) --max-nodes $(amlcompute.maxNodes) --idle-seconds-before-scaledown $(amlcompute.idleSecondBeforeScaledown)
