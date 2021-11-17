@@ -1,0 +1,13 @@
+/*docker version
+docker –version
+
+/** docker pull
+docker pull <image name>
+
+/** docker run
+Usage: docker run -it -d <image name>
+This command is used to create a container from an image
+
+/** list containers
+docker ps
+This command is used to list the running containers
