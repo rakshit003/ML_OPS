@@ -1,7 +1,7 @@
 ****Repos
 Add your ML code to repos by cloing from git
 
-***Azure Pipelines : These are list of commands to be executed prior to running application
+***Azure Pipelines : These are list of commands to be executed prior to running application, to create a YAML file for package installation
 
 Step1 : Clone git : https://github.com/sateeshcloud/MLOps-AzureCLI
 Step2 : Import the git hub to azure repo > click on import repo
