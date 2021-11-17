@@ -1,1 +1,10 @@
-clone git : https://github.com/sateeshcloud/MLOps-AzureCLI
+
+***Azure Pipelines : These are list of commands to be executed prior to running application
+
+Step1 : Clone git : https://github.com/sateeshcloud/MLOps-AzureCLI
+Step2 : Import the git hub to azure repo > click on import repo
+step3 : Create a pipeline
+Step4 : Add agent, select azure , ubuntu ( Agent is a ubuntu server)
+Step5 : add a task -- (tasks are just instructions to create a yml file to install libs or applications)
+step6 : use python version 3.6
+step7 : 
