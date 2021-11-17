@@ -1,3 +1,5 @@
+****Repos
+Add your ML code to repos by cloing from git
 
 ***Azure Pipelines : These are list of commands to be executed prior to running application
 
@@ -7,4 +9,4 @@ step3 : Create a pipeline
 Step4 : Add agent, select azure , ubuntu ( Agent is a ubuntu server)
 Step5 : add a task -- (tasks are just instructions to create a yml file to install libs or applications)
 step6 : use python version 3.6
-step7 : 
+step7 : Add task2 to install python libraries
